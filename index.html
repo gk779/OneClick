@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Go to Website Main Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #a3b5c9;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<h1>Welcome to the Page</h1>
+<p>Click the button below to go to the main page of the website.</p>
+
+<button onclick="goToMainPage()">Click here to explore</button>
+
+<script>
+  function goToMainPage() {
+    // Replace 'https://www.example.com' with the actual URL of the main page
+    window.location.href = 'https://sshotelpolamuru.netlify.app/';
+  }
+</script>
+
+</body>
+</html>
